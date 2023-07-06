@@ -1,0 +1,483 @@
+.title_boys_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_title_boys_left {
+    display: flex;
+    align-items: center;
+}
+
+._index_a {
+    color: #949494;
+    font-weight: 500;
+}
+
+._boy_a {
+    color: var(--text-color);
+}
+
+.text_title_boys_left a {
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.text_title_boys_left a:hover {
+    color: #FCE701;
+}
+
+.text_title_boys_left span {
+    font-size: 2rem;
+    padding: 0 5px;
+}
+
+.text_title_boys_right {
+    display: flex;
+    align-items: center;
+}
+
+.text_title_boys_right select {
+    min-width: 150px;
+    height: 35px;
+    padding-left: 5px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #e2e0e0;
+    border-radius: 3px;
+}
+
+.text_title_boys_right h2 {
+    padding-right: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.filter_boys {
+    margin-bottom: 20px;
+    display: none;
+}
+
+.filter_boys label i {
+    font-size: 1.9rem;
+}
+
+.filter_boys span {
+    font-size: 1.9rem;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+@media (max-width:1022px) {
+
+    .text_title_boys_right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_boys_content {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .text_title_boys_left {
+        justify-content: center;
+
+    }
+
+    .text_title_boys_right h2 {
+        display: none;
+    }
+
+    .text_title_boys_right {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:1023px) {
+    .filter_boys {
+        display: block;
+    }
+}
+
+
+/* End  filter_boys*/
+@media (max-width:1023px) {
+    .collibrary_l-3-left {
+        /* display: none; */
+        transform: translateX(-100%);
+        position: fixed;
+        width: 320px;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: whitesmoke;
+        overflow-y: scroll;
+        transition: .5s ease-in-out;
+    }
+    .nav_overlay_input:checked~.collibrary_l-3-left-nav__overlay {
+        display: block;
+    }
+    
+    .nav_overlay_input:checked~.content_boys .rowlibrary .collibrary_l-3-left{
+        transform: translateX(0%);
+        /* display: block; */
+    }
+    .collibrary_l-3-left-nav__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.category_boys_title-span {
+    display: none;
+}
+
+@media (max-width:720px) {
+    .category_boys_left h1 {
+        text-align: center;
+    }
+
+    .category_boys_title-span {
+        display: inline-block;
+        width: 100%;
+        text-align: end;
+        margin-top: 10px;
+        padding-right: 10px;
+    }
+
+    .category_boys_title-span i {
+        font-size: 1.9rem;
+    }
+}
+
+.category_boys_ul {
+    list-style: none;
+    border: 1px solid #e2e0e0;
+    background-color: #FCFCFC;
+}
+
+.category_boys_ul li {
+    min-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e2e0e0a5;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.category_boys_ul li a {
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.category_boys_ul li:hover ._a {
+    color: #FCE701;
+    font-weight: 500;
+}
+
+.category_boys_li button {
+    width: 45px;
+    height: 100%;
+    float: right;
+    background-color: initial;
+    border: none;
+}
+
+.category_boys_div_boy,
+.category_boys_div_girl {
+    display: none;
+    background-color: #F9F9F9;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #e2e0e0a5;
+    transition: 0.3s;
+}
+
+.category_boys_div_boy div,
+.category_boys_div_girl div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid #e2e0e0a5;
+}
+
+.category_boys_div_boy div:hover,
+.category_boys_div_girl div:hover {
+    background-color: #e2e0e0a5;
+}
+
+/* End category_boys_left */
+.wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 25px 40px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+header h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.price-input {
+    width: 100%;
+    display: flex;
+    margin: 30px 0 35px;
+}
+
+.price-input .field {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+}
+
+.field input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 1.3rem;
+    margin-left: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #999;
+    -moz-appearance: textfield;
+}
+
+.field span {
+    font-size: 1.5rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.price-input .separator {
+    width: 130px;
+    display: flex;
+    font-size: 1.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.slider .progress {
+    height: 100%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background: #17A2B8;
+}
+
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn_filter {
+    width: 55px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.btn_filter:hover {
+    color: #FCE701;
+    background-color: #000;
+}
+
+/* End wrapper  */
+.category_boys_left-product {
+    padding: 10px 5px;
+
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #e2e0e0a5;
+    background-color: #FCFCFC;
+    box-sizing: border-box;
+}
+
+.container_product {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e0e0a5;
+    height: 100px;
+}
+
+.product_left {
+    width: 100px;
+    margin-right: 10px;
+
+}
+
+.product_left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.product_right {
+    flex: 1;
+}
+
+.product_right a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.35rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.product_right span {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.text_s {
+    display: inline-block;
+    padding-right: 10px;
+    color: #939292a5;
+}
+
+/* End category_boys_left-product */
+.l9_boyslist_container {
+    background-color: #f2f2f2a5;
+}
+.l9_boyslist-img{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.l9_boyslist-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.l9_boyslist-img:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media (max-width:720px){
+    .l9_boyslist-img img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .l9_boyslist-content-text span{
+        font-size: 1.35rem;
+    }
+}
+.l9_boyslist_col {
+    background-color: #fff;
+    background-clip: content-box;
+    margin-top: 15px;
+    max-height: 420px;
+}
+.l9_boyslist-content-text{
+    height: 80px;
+}
+.l9_boyslist-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.l9_boyslist-content h3 {
+    margin-bottom: 20px;
+    padding: 0 3px;
+}
+
+.l9_boyslist-content h3 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.l9_boyslist-content button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.l9_boyslist-content button:hover {
+    background-color: #000;
+    color: #FCE701;
+    cursor: pointer;
+}

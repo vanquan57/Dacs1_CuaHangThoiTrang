@@ -1,0 +1,325 @@
+/* End  filter_boys*/
+/* @media (max-width:1023px) {
+    .collibrary_l-3-left {
+        display: none;
+        transform: translateX(-100%);
+        position: fixed;
+        width: 320px;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: whitesmoke;
+        overflow-y: scroll;
+        transition: .5s ease-in-out;
+    }
+    .nav_overlay_input:checked~.collibrary_l-3-left-nav__overlay {
+        display: block;
+    }
+    
+    .nav_overlay_input:checked~.content_office .rowlibrary .collibrary_l-3-left{
+        transform: translateX(0%); */
+/* display: block; */
+/* }
+    .collibrary_l-3-left-nav__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+        z-index: 1;
+    }
+} */
+.title_office{
+  padding-left: 5px;
+}
+.title_office img{
+  max-height: 350px;
+}
+
+
+.introduce_img {
+    width: 100%;
+    min-height: 120px;
+    /* background-image: url(../img/png2.png); */
+    background-size: contain;
+}
+.introduce_img span{
+    color: #090D16;
+}
+.introduce_img a{
+    text-decoration: none;
+    color: #090D16;
+    transition: 0.5s;
+}
+.introduce_img a:hover{
+  color: #fce701;
+    
+}
+.content_text_intr h1{
+  padding: 25px 0;
+  margin: 0;
+  text-align: center;
+}
+.content_text_intr_btt {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+  width: 200px;
+}
+
+/* ////////////////////////////? */
+.category_office_title-span {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .category_office__left h1 {
+    text-align: center;
+  }
+
+  .category_office_title-span {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .category_office_title-span i {
+    font-size: 1.9rem;
+  }
+}
+
+.category_office_ul {
+  list-style: none;
+  background-color: #fcfcfc;
+}
+
+.category_office_ul li {
+  min-height: 40px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.category_office_ul li a {
+  font-size: 1.35rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+._a{
+  font-weight: 700;
+}
+.category_office_ul li:hover ._a {
+  color: #fce701;
+  font-weight: 500;
+}
+
+.category_office_li button {
+  width: 45px;
+  height: 100%;
+  float: right;
+  background-color: initial;
+  border: none;
+}
+
+/*==================================================================================*/
+.category_office_li_div {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin: 10px auto;
+  transition: 0.3s;
+}
+
+.category_office_li_div div {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+
+
+.category_li_divkichthuoc_office a {
+  border: 1px solid #ccc; padding: 5px;
+}
+.category_mausac_office_color a{
+  padding: 5px 10px 5px 0px;
+  margin-right: 20px;
+}
+.category_mausac_office_color  a div{
+  border: 1px solid #ccc; border-radius: 20px; width: 20px;height: 20px;
+}
+.category_mausac_office_color span{
+  padding-left: 5px;
+  margin-top: 2px;
+}
+.category_office_li_khoanggia input{
+  margin-right: 5px;
+}
+.category_office_li_div a:hover{
+      font-size: 1.6rem;
+      background-color: #e2e0e0a5;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* .category_outletsale {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -10px;
+} */
+.swiper-slide img {
+  border: none;
+}
+
+.swiper-slide img.active-image {
+  border: 1px solid #141313;
+}
+.main_frame {
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.picture_frames {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.picture_frames img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.picture_frames img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  opacity: 0.9;
+}
+.category_outletsale-sold {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 20px;
+  background-color: #ccc;
+  padding-left: 3px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.swiper_slide__div {
+  width: 30px;
+  margin-right: 15px;
+}
+.swiper_slide__div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 30px;
+  border-radius: 40px;
+}
+#level {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.category_outletsale-content {
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+.category_outletsale-content:hover {
+  color: rgb(169, 121, 121);
+  cursor: pointer;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next {
+  background-image: url(../img/right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  background-image: url(../img/left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 573px) {
+
+
+.picture_frames {
+height: 200px;
+}
+ 
+}
+
+@media (max-width:1023px) {
+  .filter_boys {
+      display: block;
+  }
+}
+
+
+/* End  filter_boys*/
+@media (max-width:1023px) {
+  .collibrary_l-3-left {
+      /* display: none; */
+      transform: translateX(-100%);
+      position: fixed;
+      width: 320px;
+      height: 100%;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      background-color: whitesmoke;
+      overflow-y: scroll;
+      transition: .5s ease-in-out;
+  }
+  .nav_overlay_input:checked~.collibrary_l-3-left-nav__overlay {
+      display: block;
+  }
+  
+  .nav_overlay_input:checked~.content_boys .rowlibrary .collibrary_l-3-left{
+      transform: translateX(0%);
+      /* display: block; */
+  }
+  .collibrary_l-3-left-nav__overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+      z-index: 1;
+  }
+}
+
+.category_boys_title-span {
+  display: none;
+}
+@media (min-width:1023px)  and (max-width:1039px){
+  .title_office img{
+    max-height: 285px;
+  }
+
+}

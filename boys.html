@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu</title>
+    <link rel="stylesheet" href="./assets/css/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/boys.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header_pc">
+                <nav class="nav_pc">
+                    <ul class="bars_mobile">
+                        <label for="nav-mobile-input"><i class="fa-solid fa-bars"></i></label>
+                    </ul>
+                    <ul class="ul_left">
+                        <li>
+                            <a href="./home.html"><img src="././assets/img/logo.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="ul_center">
+                        <li>
+                            <a href="./Introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="li_boys">
+                            <a href="./boys.html">NAM</a>
+                            <div class="li-ul_list_boys">
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Áo</a>
+                                </div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Quần</a>
+                                </div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Giày
+                                        Dép</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Phụ
+                                        Kiện</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Bộ Sưu Tập
+                                        Mới</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Ưu Đãi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li_girl">
+                            <a href="./girls.html">NỮ</a>
+                            <div class="li-ul_list_boys">
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Áo</a>
+                                </div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Quần</a>
+                                </div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Giày
+                                        Dép</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Phụ
+                                        Kiện</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Bộ Sưu Tập
+                                        Mới</a></div>
+                                <div class="li_boys_ul-li"><a
+                                        style="color:black; font-weight: 400;text-decoration: none; " href="">Ưu Đãi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./outletsale.html">GIẢM GIÁ</a>
+                        </li>
+                        <li>
+                            <a href="./school.html">THỜI TRANG CÔNG SỞ</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+
+                    <ul class="ul_right">
+                        <li class="li-top ">
+                            HỖ TRỢ KHÁCH HÀNG: <p>0938323023</p>
+                        </li>
+                        <li class="li-bottom">
+                            <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="bottom_nav_pc">
+                    <ul class="bottom_nav_pc-ul">
+                        <li class="bottom_nav_pc-li"><a href="">7 NGÀY ĐỔI TRẢ</a></li>
+                        <li class="bottom_nav_pc-li"><a href="">GIAO HÀNG TOÀN QUỐC</a> </li>
+                        <li class="bottom_nav_pc-li"><a href="">THANH TOÁN NHẬN HÀNG</a></li>
+                        <li class="bottom_nav_pc-li"><a href="">100% CHÍNH HÃNG</a></li>
+                    </ul>
+                    <div class="bottom_nav_pc-search">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <input type="checkbox" name="" id="nav-mobile-input" class="nav__input">
+            <label for="nav-mobile-input" class="nav__overlay"></label>
+            <!-- end nav pc -->
+            <nav class="nav_mobile">
+                <div class="div_header-nav_mobile">
+                    <label for="nav-mobile-input" class="label__nav_mobile"><i class="fa-solid fa-xmark"></i></label>
+                </div>
+                <div class="header_mobile">
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <button><i class="fa-solid fa-search"></i></button>
+                </div>
+                <ul class="ul_mobile">
+                    <li class="li_review">
+                        <a href="./Introduce.html">Giới Thiệu</a>
+                    </li>
+                    <li class="li_boys">
+                        <a href="./boys.html">Nam</a>
+                        <button onclick="showMenu('menu-boys', 'chevron-icon-boys')">
+                            <i class="fa-solid fa-chevron-down" id="chevron-icon-boys"></i>
+                        </button>
+                    </li>
+                    <li class="li-list_boys" id="menu-boys">
+                        <ul class="ul-list_boys">
+                            <li><a href="">Áo</a></li>
+                            <li><a href="">Quần</a></li>
+                            <li><a href="">Giày Dép</a></li>
+                            <li><a href="">Phụ Kiện</a></li>
+                            <li><a href="">Bộ Sưu Tập Mới</a></li>
+                            <li><a href="">Ưu Đãi</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="li_girls">
+                        <a href="./girls.html">Nữ</a>
+                        <button onclick="showMenuGirls()">
+                            <i class="fa-solid fa-chevron-down" id="chevron-icon-girls"></i>
+                        </button>
+                    </li>
+                    <li class="li-list_girls" id="menu-girls">
+                        <ul class="ul-list_girls">
+                            <li><a href="">Áo</a></li>
+                            <li><a href="">Quần</a></li>
+                            <li><a href="">Giày Dép</a></li>
+                            <li><a href="">Phụ Kiện</a></li>
+                            <li><a href="">Bộ Sưu Tập Mới</a></li>
+                            <li><a href="">Ưu Đãi</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_review">
+                        <a href="./outletsale.html">Giảm giá</a>
+                    </li>
+                    <li class="li_review">
+                        <a href="./school.html">Thời Trang Công Sở</a>
+                    </li>
+                    <li class="li_review">
+                        <a href="./contact.html">Liên hệ</a>
+                    </li>
+                    <li class="li_review">
+                        <a href="./login.html">Đăng nhập</a>
+                    </li>
+                    <li class="li_review li_intertainment">
+                        <div class="intertainment">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End Header -->
+        <div class="title_boys gridlibrary wide">
+            <div class="title_boys_content">
+                <div class="title_boys_content-left">
+                    <div class="text_title_boys_left">
+                        <h1><a href="./home.html" class="_index_a">TRANG CHỦ</a></h1>
+                        <span>/</span>
+                        <h1><a href="./Introduce.html" class="_boy_a">NAM</a> </h1>
+                    </div>
+                </div>
+                <div class="text_title_boys_right">
+                    <div class="filter_boys">
+                        <label for="collibrary_l-3-left"><i class="fa-solid fa-bars"></i></label>
+                        <span>LỌC</span>
+                    </div>
+                    <h2>Xem tất cả 10 kết quả</h2>
+                    <select name="" id="">
+                        <option value="">Thứ tự mặc định</option>
+                        <option value="">Phổ biến nhất</option>
+                        <option value="">Đánh giá cao nhất</option>
+                        <option value="">Mới nhất</option>
+                        <option value="">Giá thấp đến cao</option>
+                        <option value="">Giá cao xuống thấp</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="collibrary_l-3-left" class="nav_overlay_input" hidden>
+        <label for="collibrary_l-3-left" class="collibrary_l-3-left-nav__overlay"></label>
+        <!-- End title_boys -->
+        <div class="content_boys gridlibrary wide" style="margin-top: 20px;">
+            <div class="rowlibrary">
+                <div class="collibrary l-3 collibrary_l-3-left">
+                    <div class="category_boys_left">
+                        <label for="collibrary_l-3-left" class="category_boys_title-span"><i
+                                class="fa-solid fa-xmark"></i></label>
+                        <h1>DANH MỤC SẢN PHẨM</h1>
+                        <ul class="category_boys_ul">
+                            <li><a href="./Introduce.html" class="_a">Giới thiệu</a></li>
+                            <li class="category_boys_li" style="display: block; padding-top: 12px;">
+                                <a href="./boys.html" class="_a">Nam</a>
+                                <button onclick="toggleDiv('category_boys_div_boy')"><i
+                                        class="fa-solid fa-angle-down"></i></button>
+                                <div id="category_boys_div_boy" class="category_boys_div_boy">
+                                    <div><a href="">Áo</a></div>
+                                    <div><a href="">Quần</a></div>
+                                    <div><a href="">Giày dép</a></div>
+                                    <div><a href="">Phụ Kiện</a></div>
+                                    <div><a href="">Bộ Sưu Tập Mới</a></div>
+                                    <div><a href="">Ưu Đãi</a></div>
+                                </div>
+                            </li>
+
+                            <li class="category_boys_li" style="display: block; padding-top: 12px;">
+                                <a href="" class="_a">Nữ</a>
+                                <button onclick="toggleDiv('category_boys_div_girl')"><i
+                                        class="fa-solid fa-angle-down"></i></button>
+                                <div id="category_boys_div_girl" class="category_boys_div_girl">
+                                    <div><a href="">Áo</a></div>
+                                    <div><a href="">Quần</a></div>
+                                    <div><a href="">Giày dép</a></div>
+                                    <div><a href="">Phụ Kiện</a></div>
+                                    <div><a href="">Bộ Sưu Tập Mới</a></div>
+                                    <div><a href="">Ưu Đãi</a></div>
+                                </div>
+                            </li>
+                            <li><a href="" class="_a">Outlet Sale</a></li>
+                            <li><a href="" class="_a">Back To School</a></li>
+                            <li><a href="" class="_a">Liên Hệ</a></li>
+                        </ul>
+                    </div>
+                    <!-- End category_boys_left-->
+                    <div class="wrapper">
+                        <header>
+                            <h2>LỌC THEO GIÁ ($)</h2>
+                        </header>
+                        <div class="price-input">
+                            <div class="field">
+                                <span>Min</span>
+                                <input type="number" class="input-min" value="2500">
+                            </div>
+                            <div class="separator">-</div>
+                            <div class="field">
+                                <span>Max</span>
+                                <input type="number" class="input-max" value="7500">
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                            <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                        </div>
+                        <button class="btn_filter">Lọc</button>
+                    </div>
+                    <!-- End wrapper -->
+                    <div class="category_boys_left-product">
+                        <div class="container_product">
+                            <div class="product_left">
+                                <img src="./assets/img/prod1.jfif" alt="">
+                            </div>
+                            <div class="product_right">
+                                <h3><a href="">Áo Thun Nữ HOLD ME TIGHT IF17-90235 BL WHT</a></h3>
+                                <span><s class="text_s">790,000₫</s> 395,000 ₫</span>
+                            </div>
+                        </div>
+                        <div class="container_product">
+                            <div class="product_left">
+                                <img src="./assets/img/prod2.jfif" alt="">
+                            </div>
+                            <div class="product_right">
+                                <h3><a href="">Áo Thun Nam Be On Edge IS18-99266 BL WHT</a></h3>
+                                <span><s class="text_s">390,000₫</s> 195,000 ₫</span>
+                            </div>
+                        </div>
+                        <div class="container_product">
+                            <div class="product_left">
+                                <img src="./assets/img/prod5.jfif" alt="">
+                            </div>
+                            <div class="product_right">
+                                <h3><a href="">Giày Sneaker 2750 Classic S000010-P34</a></h3>
+                                <span><s class="text_s">2,190,000₫</s> 1,395,000 ₫</span>
+                            </div>
+                        </div>
+                        <div class="container_product">
+                            <div class="product_left">
+                                <img src="./assets/img/prod3.jfif" alt="">
+                            </div>
+                            <div class="product_right">
+                                <h3><a href="">Váy liền thân KIDS - 09</a></h3>
+                                <span><s class="text_s">390,000₫</s> 95,000 ₫</span>
+                            </div>
+                        </div>
+                        <div class="container_product" style="border: none;">
+                            <div class="product_left">
+                                <img src="./assets/img/prod4.jfif" alt="">
+                            </div>
+                            <div class="product_right">
+                                <h3><a href="">Áo Sơ Mi Nam HOLD ME TIGHT IF227-2335 BW IHT</a></h3>
+                                <span><s class="text_s">590,000₫</s> 365,000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End category_boys_left-product -->
+                </div>
+                <div class="collibrary l9_boyslist_container l-9 m-12 c-12">
+                    <div class="rowlibrary">
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_1.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Polo Thể Thao Nam Airy Cool In Phản Quang - Đen</a></h3>
+                                    <span><s class="text_s">290,000₫</s> 195,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_2.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Ba Lỗ Nam 100% Cotton Siêu Mềm Siêu Thoáng</a></h3>
+                                    <span><s class="text_s">320,000₫</s> 179,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_3.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Polo Nam Pique Mắt Chim Phối Tay Thời Trang</a></h3>
+                                    <span><s class="text_s">292,000₫</s> 205,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_4.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Sơ Mi Nam Tay Dài Tencel Kẻ Sọc Caro</a></h3>
+                                    <span><s class="text_s">292,000₫</s> 190,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_3=5.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Vest Nam Nano Công Sở Trẻ Trung</a></h3>
+                                    <span><s class="text_s">1190,000₫</s> 595,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_6.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Quần Jeans Nam Slim Fit Lycra Co Giãn</a></h3>
+                                    <span><s class="text_s">370,000₫</s> 195,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_7.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Quần Jeans Nam Cotton Chỉ Phối Màu</a></h3>
+                                    <span><s class="text_s">240,000₫</s> 155,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_8.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Bộ Đồ Thể Thao Nam Nỉ Phối Sọc - CAM</a></h3>
+                                    <span><s class="text_s">199,000₫</s> 99,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_9.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Bộ Quần Áo Thể Thao Nam Tay In Phản Quang</a></h3>
+                                    <span><s class="text_s">299,000₫</s> 199,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                        <div class="collibrary l9_boyslist_col l-3 c-6 m-4">
+                            <div class="l9_boyslist-img">
+                                <img src="./assets/img/anhNam_10.webp" alt="">
+                            </div>
+                            <div class="l9_boyslist-content">
+                                <div class="l9_boyslist-content-text">
+                                    <h3><a href="">Áo Sơ Mi Dài Tay Cao Cấp Yo.Smart</a></h3>
+                                    <span><s class="text_s">390,000₫</s> 199,000 ₫</span>
+                                </div>
+                                <button>THÊM VÀO GIỎ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End l9_boyslist_container -->
+            </div>
+        </div>
+        <!-- Messenger Plugin chat Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "107778822239750");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v17.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!--End content_boys -->
+        <footer class="footer" style="background-color: #ECECEC;">
+            <div class="gridlibrary wide">
+                <div class="rowlibrary footer_div">
+                    <div class="collibrary l-4 m-4 c-12">
+                        <h2 class="footer-h2">FASHION STYLE Q&H</h2>
+                        <ul class="footer-list">
+                            <li class="footer-list-item ">
+                                <div><i class="fa-solid fa-map"></i></div>
+                                <div class="footer-list-item-section_1">26 Đ. Trần Hưng Đạo, Điện Ngọc, Điện Bàn, Quảng
+                                    Nam 550000, Việt Nam</div>
+                            </li>
+                            <li class="footer-list-item footer-list-item_hover"><i class="fa-solid fa-phone"></i>
+                                <div class="footer-list-item-section_1">0123 456 789</div>
+                            </li>
+                            <li class="footer-list-item footer-list-item_hover"><i
+                                    class="fa-sharp fa-solid fa-envelopes-bulk"></i>
+                                <div class="footer-list-item-section_1">quanlv.22it@vku.udn.vn <br>
+                                    huydq.22it@vku.udn.vn</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collibrary l-2 m-4 c-6">
+                        <div class="footer-list-item-section">
+                            <div>
+                                <h2 class="footer-h2">MENU</h2>
+                                <ul class="footer-list">
+                                    <li class="footer-list-item "><a class="footer-list-item-a footer-list-item_hover"
+                                            href=""> Trang chủ</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-item-a footer-list-item_hover"
+                                            href="">Giới thiệu</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-item-a footer-list-item_hover"
+                                            href="">Cửa hàng</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-item-a footer-list-item_hover"
+                                            href="">OutletSale</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-item-a footer-list-item_hover"
+                                            href="">Back to school</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-item-a footer-list-item_hover"
+                                            href="">liên hệ </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collibrary l-2 m-4 c-6">
+                        <h2 class="footer-h2">CHÍNH SÁCH</h2>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"> <a class="footer-list-item-a footer-list-item_hover"
+                                    href="">Chính sách thẻ thành viên</a></li>
+                            <li class="footer-list-item"> <a class="footer-list-item-a footer-list-item_hover"
+                                    href="">Hướng dẫn mua hàng</a></li>
+                            <li class="footer-list-item"> <a class="footer-list-item-a footer-list-item_hover"
+                                    href="">Chính sách đổi trả</a></li>
+                            <li class="footer-list-item"> <a class="footer-list-item-a footer-list-item_hover"
+                                    href="">Hướng dẫn chọn size</a></li>
+                            <li class="footer-list-item"> <a class="footer-list-item-a footer-list-item_hover"
+                                    href="">Chính sách bảo hành</a></li>
+                        </ul>
+                    </div>
+                    <div class="collibrary l-4 m-12 c-12">
+                        <div class="footer-list-item-section">
+                            <div>
+                                <h2 class="footer-h2">ĐĂNG KÝ NHẬN TIN</h2>
+                                <ul class="footer-list">
+                                    <li class="footer-list-item">Đăng ký để nhận được được thông tin mới nhất từ chúng
+                                        tôi.</li>
+                                    <li class="footer-list-item">
+                                        <div class="footer-list-item-section_4">
+                                            <input type="email" name="" id="" class="footer-list-item-section_4-input"
+                                                placeholder="Email...">
+                                            <button class="footer-list-item-section_4-button">ĐĂNG KÝ</button>
+                                        </div>
+                                    </li>
+                                    <li class="footer-list-item">
+                                        <div class="footer-list-item-section_4">
+                                            <a class="footer-list-item-a" href=""> <i
+                                                    class="fa-brands fa-facebook footer-list-item-section_4-i footer_fb  footer-list-item_hover_i"></i></a>
+                                            <a class="footer-list-item-a" href=""> <i
+                                                    class="fa-brands fa-instagram footer-list-item-section_4-i footer_instagram  footer-list-item_hover_i">
+                                                </i> </i></a>
+                                            <a class="footer-list-item-a" href=""> <i
+                                                    class="fa-brands fa-twitter footer-list-item-section_4-i footer_twitter  footer-list-item_hover_i"></i></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_license ">
+                <div>
+                    <hr class="license-hr">
+                    <div class="license-div">
+                        <p><span class="license-span1">&#169;&#32;&#32;bản quyền thuộc về</span><span
+                                class="license-span2"> FASHION STYLE Q&H </span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/boy.js"></script>
+</body>
+
+</html>

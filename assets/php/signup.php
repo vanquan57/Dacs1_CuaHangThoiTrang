@@ -20,7 +20,7 @@ $password = $_POST['regPassword'];
 // Insert dữ liệu vào bảng User
 $sql = "INSERT INTO User (username, passwords, email) VALUES ('$username', '$password', '$email')";
 if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('Đăng ký thành công!');</script>";
+    header("Location: ../../index.html");
 } else {
     $error_message = "Lỗi: " . $sql . "<br>" . $conn->error;
     echo "<script>alert('$error_message');</script>";

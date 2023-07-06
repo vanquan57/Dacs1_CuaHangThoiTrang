@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgotPass</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div class="box-login" id="login">
+                <form action="./assets/php/ResetPass.php" method="POST">
+                    <div class="top-header">
+                        <h3>Reset Password</h3>
+                        <small>Please keep this information confidential. !</small>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-field">
+                            <input type="password" class="input-box" name="NewPassword" required>
+                            <label for="logEmail">New Password</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="input-box" name="ConfirmNewPassword" required>
+                            <label for="logPassword">Confirm New Password</label>
+                            <div class="eye-area">
+                                <div class="eye-box" onclick="myLogPassword()">
+                                    <i class="fa-regular fa-eye" id="eye"></i>
+                                    <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" class="input-box" name="VerificationCode" required>
+                            <label for="logEmail">Verification code</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="submit" class="input-submit" value="Reset Password">
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

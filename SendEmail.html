@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="./assets/css/SendEmail.css">
+</head>
+<body>
+    <div class="content">
+        <div class="div-img">
+            <img src="https://cdn-icons-png.flaticon.com/512/6195/6195699.png" alt="">
+        </div>
+        <form action="./assets/php/SendEmail.php" method="post" class="From_SendEmail">
+            <label for="">Forgot your <br> Password</label>
+            <input type="email" name="email" id="inputFrom_SendEmail" placeholder="Enter your email">
+            <div class="fromSubmit">
+                <input type="submit" value="Send Email">
+                <a href="./index.html">Back To Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
